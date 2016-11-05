@@ -13,8 +13,8 @@ Example to highlight an image:
 Bitmap highlightedImage = IP4A.highlight(srcBitmap);
 
 Other filters are listed below:
-IP4A.invert(Bitmap src)
-IP4A.grayscale(Bitmap src)
+IP4A.invert(Bitmap src) </br>
+IP4A.grayscale(Bitmap src) </br>
 IP4A.correctGamma(Bitmap src, double red, double green, double blue)
 IP4A.filterColor(Bitmap src, double red, double green, double blue)
 IP4A.sepiaToning(Bitmap src, int depth, double red, double green, double blue)
